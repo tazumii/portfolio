@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -12,11 +12,16 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <Image 
+        src="/img/pb.png"
+        width={500}
+        height={500}
+        />
         <h1 className={styles.title}>
-          Agus Dustin <br/>
+          Agus Dustin <br />
           Sudarta
         </h1>
       </main>
     </div>
-  )
+  );
 }
