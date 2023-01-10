@@ -14,6 +14,7 @@ export default function Home() {
       <main className={styles.main}>
         <Image 
         src="/img/pb.png"
+        alt="a"
         width={500}
         height={500}
         />
