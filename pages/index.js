@@ -12,12 +12,16 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Image 
-        src="/img/pb.png"
-        alt="a"
-        width={500}
-        height={500}
-        />
+        <div className={styles.pbContainer}>
+          <div className={styles.gradient} />
+          <Image
+            className={styles.pb}
+            src="/img/pb.png"
+            alt="a"
+            width={300}
+            height={300}
+          />
+        </div>
         <h1 className={styles.title}>
           Agus Dustin <br />
           Sudarta
